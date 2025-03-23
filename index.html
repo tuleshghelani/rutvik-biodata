@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Rutvik Bhatt</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+    <div class="background-animation"></div>
+    <div class="container">
+        <header>
+            <div class="profile-container">
+                <img src="Profile_Photo.jpg" alt="Your Name" class="profile-photo">
+                <div class="profile-overlay"></div>
+            </div>
+            <h1 class="glitch_" data-text="Rutvik Bhatt">Rutvik Bhatt</h1>
+            <p class="tagline"></p>
+            <button id="viewPhotosBtn" class="view-photos-btn">View Photos</button>
+        </header>
+        
+        <section class="personal-info" data-aos="fade-up">
+            <h2><i class="fas fa-user"></i> Personal Information</h2>
+            <ul>
+                <li><i class="fas fa-ruler-vertical"></i> <b>Sub- caste: &nbsp;</b> Audhichya sahastra chibhadiya</li>
+                <li><i class="fas fa-ruler-vertical"></i> <b>Height: &nbsp;</b> 5'.7"</li>
+                <li><i class="fas fa-map-marker-alt"></i> <b>Native Village: &nbsp;</b> Bravala (Galath) Di- Junagadh</li>
+                <li><i class="fas fa-graduation-cap"></i> <b>Education: &nbsp;</b> MSC. IT & CA, B.C.A</li>
+                <li><i class="fas fa-briefcase"></i> <b>Income: &nbsp;</b> 35,000 /- Month</li>
+                <li><i class="fas fa-briefcase"></i> <b>Occupation: &nbsp;</b> Software Developer</li>
+                <li><i class="fas fa-briefcase"></i> <b>Place Of Occupation: &nbsp;</b> Ranpariya The Development Lab
+                    South - 305, Twin Star, Near
+                    Balaji Hall, 150 Feet Ring
+                    Road Rajkot
+                    </li>
+            </ul>
+        </section>
+        
+        <section class="birth-info" data-aos="fade-up">
+            <h2><i class="fas fa-user"></i> Birth Information</h2>
+            <ul>
+                <li><i class="fas fa-calendar-alt"></i> <b>Birth Date: &nbsp;</b> 4 June 2001</li>
+                <li><i class="fas fa-calendar-alt"></i> <b>Birth Time: &nbsp;</b> 08:15 AM</li>
+                <li><i class="fas fa-calendar-alt"></i> <b>Birth Place: &nbsp;</b> Ingorala (Bhad)</li>
+            </ul>
+        </section>
+        
+        <section class="about-me" data-aos="fade-up">
+            <h2><i class="fas fa-heart"></i> About Me</h2>
+            <p>I am a passionate and ambitious individual looking for a life partner who shares similar values and aspirations. I enjoy traveling, reading, and spending quality time with family and friends.</p>
+        </section>
+        
+        <section class="family-background" data-aos="fade-up">
+            <h2><i class="fas fa-users"></i> Family Background</h2>
+            <ul>
+                <li><i class="fas fa-male"></i> <b>Father's name: &nbsp;</b> Bharatbhai Niranjanbhai Bhatt</li>
+                <li><i class="fas fa-male"></i> <b>Occupation: &nbsp;</b> Employee at Private Company</li>
+                <li><i class="fas fa-female"></i> <b>Mother's name: &nbsp;</b> Ushaben Bharatbhai Bhatt</li>
+                <li><i class="fas fa-female"></i> <b>Occupation: &nbsp;</b> Aasha Facilitator (Health Department)</li>
+                <li><i class="fas"></i> <b>Younger Brother: &nbsp;</b> Shivang Bhatt (Unmerried)</li>
+                <li><i class="fas"></i> <b>Res. Address : &nbsp;</b> Rajkot - 360004</li>
+                <li><i class="fas"></i> <b>Maternal: &nbsp;</b> Chhelshankarbhai Narbherambhai Bhatt (Ingorala-bhad)</li>
+                <li><i class="fas"></i> <b>Contact: &nbsp;</b> 
+                    <a href="tel:(+91)8238042619" class="phone-link">
+                        <i class="fas fa-phone"></i> +91 82380 42619
+
+                    </a>
+                </li>
+                <!-- <li><i class="fas fa-user-friends"></i> Siblings: 1 elder brother (Married)</li> -->
+            </ul>
+        </section>
+        
+        <!-- <section class="preferences" data-aos="fade-up">
+            <h2><i class="fas fa-search"></i> Partner Preferences</h2>
+            <ul>
+                <li><i class="fas fa-birthday-cake"></i> Age: 25-30 years</li>
+                <li><i class="fas fa-university"></i> Education: Bachelor's degree or higher</li>
+                <li><i class="fas fa-briefcase"></i> Profession: Any</li>
+                <li><i class="fas fa-hand-holding-heart"></i> Values: Family-oriented, honest, and kind-hearted</li>
+            </ul>
+        </section> -->
+        
+        <!-- <footer>
+            <p>
+                <a href="tel:(+91)9512711223" class="phone-link">
+                    <i class="fas fa-phone"></i> +91 9512711223
+                </a>
+            </p>
+        </footer> -->
+    </div>
+    
+    <div id="photoSlider" class="photo-slider">
+        <div class="slider-background"></div>
+        <div class="slider-content">
+            <img src="Photo_1.jpg" alt="Photo 1" class="slider-photo active" loading="lazy">
+            <img src="Photo_2.jpg" alt="Photo 2" class="slider-photo" loading="lazy">
+            <img src="Photo_3.jpg" alt="Photo 3" class="slider-photo" loading="lazy">
+            <img src="Photo_4.jpg" alt="Photo 4" class="slider-photo" loading="lazy">
+            <img src="Photo_5.jpg" alt="Photo 5" class="slider-photo" loading="lazy">
+        </div>
+        <button class="slider-close">&times;</button>
+        <button class="slider-nav prev">&lt;</button>
+        <button class="slider-nav next">&gt;</button>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
